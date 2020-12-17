@@ -28,7 +28,10 @@ a{
     justify-content: center;
     padding-bottom: 40px;
   }
-  
+.searchBar{
+  overflow: auto;
+  width: 100%
+}
   .buttons{
     display: flex;
     justify-content: space-evenly;
@@ -36,3 +39,14 @@ a{
     margin:auto;
     
   }
+.youtube{
+  display: flex;
+  justify-content: center;
+  padding-top: -50px;
+}
+
+footer{
+  position: absolute;
+  border-top: thin;
+  
+}
