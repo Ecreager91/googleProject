@@ -17,12 +17,13 @@ a{
     
 .navbarright{
       display: flex;
-      justify-content: right;
-    }
+      justify-content: flex-end;
+      width: 100%;
+}
 .logo{
       display: flex;
       justify-content: center;
-     ;
+     
     }
 .fJOQGe{
       display: flex;
@@ -36,15 +37,19 @@ a{
   
 }
 .searchBar{
+    display: flex;
+    justify-content: center;
     overflow: auto;  
-    width: 429px;
+    width: 100%;
 }
 .inputsearch{
-    margin-left: 250px;
+    display: flex;
+    justify-content: center;  
     margin-right: 0;
     height: 34px;
-    width: 100%;
+    width: 50%;
     border-radius: 25px;
+    
 }
 .inputsearch:hover{
     box-shadow: 1px 1px 3px #8888889f;
@@ -61,11 +66,20 @@ a{
 .youtube{
     display: flex;
     justify-content: center;
-    padding-top: -50px;
+    padding-bottom: 100px;
   }
   
-footer{
-    position: absolute;
-    border-top: thin;
-    
-  }
+.leftLinks{
+  list-style: none;
+  display: flex;
+  max-width: 50%;
+  justify-content: flex-start;
+  position: absolute;
+  margin-left: -40px;
+}
+
+.rightLinks{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
